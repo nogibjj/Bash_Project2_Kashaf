@@ -1,4 +1,4 @@
- #!/bin/bash
+#!/bin/bash
 #===========================================================================
 # Script Name: bmi calculator
 # Purpose:     calculates bmi and provides information based on your results
@@ -26,3 +26,5 @@ elif [[ "$a" -ge 25 ]] && [[ "$a" -lt 30 ]]; then
 else
     echo "A bmi of $a, falls within the obese range."
 fi
+
+
